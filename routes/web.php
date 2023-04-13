@@ -14,5 +14,5 @@ use App\Http\Controllers\dbcontroller;
 |
 */
 
-Route::get('/posts', [dbcontroller::class, 'index']);
+Route::get('/', [dbcontroller::class, 'index']);
 
